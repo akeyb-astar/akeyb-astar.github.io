@@ -1,11 +1,228 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Muhammad Akbar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    /* GLOBAL RESET */
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #2b4c58;
+      color: #ffffff;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      background: linear-gradient(to bottom, #e0ecff, #9dc3f7);
+      color: #1f1f1f;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 14px;
+      color: #000;
+      margin-bottom: 1rem;
+      padding: 0 2rem;
+    }
+
+    .square {
+      width: 20px;
+      height: 20px;
+      background: white;
+    }
+
+    .quotes {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 3rem;
+      font-family: 'Playfair Display', serif;
+      font-size: 14px;
+    }
+
+    .left-quote, .right-quote {
+      width: 40%;
+      text-align: left;
+    }
+
+    .right-quote {
+      text-align: right;
+    }
+
+    .image-wrapper {
+      margin-top: 1.5rem;
+    }
+
+    .image-wrapper img {
+      width: 230px;
+      border-radius: 10px;
+    }
+
+    .name h1 {
+      font-size: 3.5rem;
+      line-height: 3.8rem;
+      font-weight: 900;
+      color: #1d1d1d;
+    }
+
+    .scroll-btn {
+      margin-top: 2rem;
+    }
+
+    .scroll-btn a {
+      padding: 10px 20px;
+      background-color: #f8c22c;
+      color: #1e3b41;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    /* MAIN CONTENT */
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: #ffffff;
+      color: #141b25;
+      padding: 2rem 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+    }
+
+    h2 {
+      color: #c48f0a;
+      border-bottom: 2px solid #f0c040;
+      padding-bottom: 0.3rem;
+      margin-top: 2rem;
+    }
+
+    p, li {
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      margin-top: 0.5rem;
+    }
+
+    .section {
+      margin-top: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      color: #f8c22c;
+      padding: 1rem;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      background-color: #4a5a79;
+      border-top: 2px solid #f8c22c;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hello world</h1>
+
+  <!-- HALAMAN DEPAN -->
+  <section class="hero">
+    <div class="top-bar">
+      <div class="square"></div>
+      <div>Portfolio</div>
+      <div>2025</div>
+    </div>
+
+    <div class="quotes">
+      <div class="left-quote">
+        Between stimulus and response lies a space. In that space lie our freedom and power to choose a response. In our response lies our growth and our happiness.
+      </div>
+      <div class="right-quote">
+        IT ALWAYS SEEM IMPOSSIBLE<br>UNTIL IT’S DONE<br><br>
+        CHOOSE GROWTH OVER COMFORT
+      </div>
+    </div>
+
+    <div class="image-wrapper">
+      <img src="D:\PM_23430249\imgakbar.png" alt="Muhammad Akbar">
+    </div>
+
+    <div class="name">
+      <h1>MUHAMMAD<br>AKBAR</h1>
+    </div>
+
+    <div class="scroll-btn">
+      <a href="#profil">Lihat Selengkapnya</a>
+    </div>
+  </section>
+
+  <!-- ISI PORTOFOLIO -->
+  <div class="container" id="profil">
+    <h2>PROFIL PERSONAL</h2>
+    <p>Merupakan mahasiswa yang memiliki keahlian dasar dalam bidang teknologi informasi dan komputer serta kemampuan komunikasi yang baik. Mampu bekerja secara individu maupun tim, mudah beradaptasi dengan hal baru, dan memiliki keterampilan interpersonal yang mendukung dalam proses pengajaran. Berpengalaman kerja di salah satu kafe di Pontianak sebagai Outlet Crew, di mana saya juga mengajar produk boardgame sebagai bentuk layanan, sehingga melatih kemampuan presentasi dan interaksi dengan berbagai kalangan. Saya yakin dapat memberikan kontribusi positif dalam dunia pendidikan sebagai guru komputer dan siap berkembang bersama institusi tempat saya mengajar.</p>
+
+    <h2>RIWAYAT PENDIDIKAN</h2>
+    <p><strong>UNIVERSITAS WIDYA DHARMA</strong><br>Jurusan Bisnis Digital 2023 – Sekarang</p>
+
+    <h2>PENGALAMAN</h2>
+    <div class="section">
+      <p><strong>CV MITRA INDONESIA KHATULISTIWA</strong><br>AGUSTUS 2023 – SEKARANG<br><em>Staff Administrasi</em></p>
+      <ul>
+        <li>Mengelola data administrasi, termasuk input dan output data dalam sistem database perusahaan.</li>
+        <li>Menyusun dan mengelola tagihan harian untuk memastikan keakuratan dan kelancaran proses keuangan.</li>
+        <li>Mengoordinasikan dan mengelola proses serah terima dengan mitra kerja untuk memastikan kepatuhan dan kejelasan dokumen.</li>
+        <li>Mengoordinasikan dan mengoptimalkan proses operasional di lapangan untuk memastikan efisiensi dan efektivitas kerja.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <p><strong>MEEPLE INDONESIA</strong><br>OKTOBER 2021 – JULI 2023<br><em>Outlet Crew</em></p>
+      <ul>
+        <li>Mengajar produk layanan yang disediakan oleh toko kepada konsumen.</li>
+        <li>Membuat 50 – 100 pesanan per shift sesuai kustomisasi konsumen.</li>
+        <li>Menjadi garda terdepan dalam pencatatan order termasuk penawaran promosi bulanan.</li>
+        <li>Bertanggung jawab dalam pengelolaan arus kas operasi harian.</li>
+        <li>Berkontribusi dalam kelancaran operasional administrasi perusahaan lewat input dan intergrasi data tepat waktu.</li>
+        <li>Berkontribusi dalam pemantauan kinerja keuangan lewat pembuatan rekapan data secara rutin.</li>
+      </ul>
+    </div>
+
+    <h2>PENGALAMAN PROGRAM</h2>
+    <p><strong>PEKAN PEMUDA RISET DAN INOVASI NASIONAL NTB – 10 – 17 JULI 2022</strong><br>Salah satu perwakilan Kalimantan Barat</p>
+    <ul>
+      <li>Melakukan analisis sesuai dengan kaidah dan metode ilmiah guna mendapatkan informasi.</li>
+      <li>Menyusun laporan berdasarkan hasil penelitian menjadi karya tulis ilmiah.</li>
+      <li>Bekerja secara tim untuk menyelesaikan masalah.</li>
+      <li>Melakukan presentasi hasil penelitian kepada seluruh perwakilan sekolah tiap provinsi.</li>
+    </ul>
+
+    <h2>KEMAMPUAN</h2>
+    <ul>
+      <li><strong>Teknikal</strong> – Microsoft Office, Media Sosial, Canva.</li>
+      <li><strong>Personal</strong> – Komunikasi, administratif, berpikir kritis, kemampuan adaptasi, interpersonal, kerjasama, cekatan, teliti, pelayanan, penyelesaian masalah.</li>
+      <li><strong>Bahasa</strong> – Indonesia (aktif), Inggris (aktif).</li>
+    </ul>
+
+    <h2>SERTIFIKAT</h2>
+    <ul>
+      <li>Medali Emas Olimpiade Matematika Nasional – Akademi Sains Indonesia 2023</li>
+      <li>Medali Emas Olimpiade Matematika – Smart Student, OSP 2023</li>
+      <li>Medali Emas – Liga Science Social Nasional 2023</li>
+      <li>Medali Perak – YAPRESINDO 2023</li>
+      <li>Peserta – BRIN, PIRN 2022</li>
+      <li>Medali Emas Bahasa Inggris – RNG Edu 2021</li>
+      <li>Medali Perunggu Grammar – Kanigara Education 2021</li>
+      <li>Juara IV Lomba Cepat Tanggap – Universitas OSO 2021</li>
+    </ul>
+  </div>
+
+  <footer>
+    &copy; 2025 Muhammad Akbar | Portofolio Pribadi
+  </footer>
+
 </body>
 </html>
